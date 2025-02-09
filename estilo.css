@@ -25,7 +25,7 @@ body {
 }
 
 .logo img {
-    height: 40px;
+    height: 120px;
 }
 
 /* Links de navegação */
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: gray;
+    color: #fbd756;
 }
 
 /* Ícone do menu (mobile) */
@@ -62,7 +62,7 @@ body {
     .nav-links {
         display: none;
         position: absolute;
-        top: 60px;
+        top:152px;
         right: 0;
         background: rgba(0, 0, 0, 0.8);
         width: 100%;
