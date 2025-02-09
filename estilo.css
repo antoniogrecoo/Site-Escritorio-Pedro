@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background: rgba(0, 0, 0, 0.5); /* Transparente */
+    background: #000037; /* Transparente */
     backdrop-filter: blur(10px); /* Efeito vidro fosco */
 }
 
