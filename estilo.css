@@ -7,7 +7,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('./imagens/fundo1.jpg') no-repeat center center/cover;
     height: 100vh; /* Garante que o fundo ocupe toda a tela */
     display: flex;
     flex-direction: column;
@@ -24,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
+    padding: 0 30px;
     background: #000000;
     backdrop-filter: blur(10px);
 }
@@ -70,7 +69,7 @@ body {
     .nav-links {
         display: none;
         position: absolute;
-        top: 152px;
+        top: 120px;
         right: 0;
         background: #1b1b1b;
         width: 100%;
@@ -92,14 +91,39 @@ body {
     }
 }
 
-/* Div branca sobre a imagem */
-.container {
-    width: 80%;
-    max-width: 900px;
-
+.fundo1 {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .fundo1 {
+      width: auto;
+      height: 720px;
+    }
+}
+/* Texto centralizado sobre a imagem */
+.texto1 {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     text-align: left;
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+}
+.texto{
+    text-align: left;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .texto1 {
+     font-size: 23px;
+    }
+}
+@media (max-width: 768px) {
+    .texto {
+     font-size: 16px;
+     
+    }
 }
