@@ -96,63 +96,6 @@ body {
         display: flex;
     }
 }
-
-.fundo1 {
+.img1{
     width: 100%;
-    height: auto;
-    position: absolute;
-    
-}
-@media (max-width: 768px) {
-    .fundo1 {
-      width: auto;
-      height: 720px;
-    }
-}
-/* Texto centralizado sobre a imagem */
-.texto1 {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: left;
-    z-index: 1; /* Garante que o texto fique acima da imagem */
-}
-.texto{
-    text-align: left;
-    font-size: 20px;
-}
-@media (max-width: 768px) {
-    .texto1 {
-     font-size: 23px;
-    }
-}
-@media (max-width: 768px) {
-    .texto {
-     font-size: 16px;
-     
-    }
-}
-.divtxt{
-    background-color: white;
-    color: black;
-    width: 100%;
-    padding: 100px 300px;
-    z-index: 1;
-    top: 100%;
-    position: absolute;
-    text-align: justify;
-}
-@media (max-width: 768px) {
-    .divtxt {
-        width: 80%;
-        padding: 0 0;
-    }
-}
-@media (max-width: 768px) {
-    .parag {
-      margin-top: -80px; 
-    }
 }
