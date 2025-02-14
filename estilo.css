@@ -98,8 +98,13 @@ body {
 }
 .img1 {
     width: 100%;
-    margin-top: 120px; /* Ajuste para evitar sobreposição com o navbar fixo */
+    margin-top: 680px; /* Ajuste para evitar sobreposição com o navbar fixo */
     display: block;
+}
+@media (max-width: 768px) {
+    .img1 {
+        margin-top: 120px;
+    }
 }
 
 @media (max-width: 768px) {
