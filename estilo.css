@@ -99,3 +99,8 @@ body {
 .img1{
     width: 100%;
 }
+@media (max-width: 768px) {
+    .carousel {
+        width: 85%;
+    }
+}
