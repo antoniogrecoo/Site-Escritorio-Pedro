@@ -96,9 +96,12 @@ body {
         display: flex;
     }
 }
-.img1{
+.img1 {
     width: 100%;
+    margin-top: 120px; /* Ajuste para evitar sobreposição com o navbar fixo */
+    display: block;
 }
+
 @media (max-width: 768px) {
     .carousel {
         width: 85%;
