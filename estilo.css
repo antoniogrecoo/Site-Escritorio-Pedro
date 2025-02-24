@@ -5,14 +5,16 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
 
 
 body {
     font-family: Arial, sans-serif;
-    height: 100vh; /* Garante que o fundo ocupe toda a tela */
+    height: 100vh;
+    /* Garante que o fundo ocupe toda a tela */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,11 +98,14 @@ body {
         display: flex;
     }
 }
+
 .img1 {
     width: 100%;
-    margin-top: 680px; /* Ajuste para evitar sobreposição com o navbar fixo */
+    margin-top: 680px;
+    /* Ajuste para evitar sobreposição com o navbar fixo */
     display: block;
 }
+
 @media (max-width: 768px) {
     .img1 {
         margin-top: 120px;
@@ -109,6 +114,44 @@ body {
 
 @media (max-width: 768px) {
     .carousel {
-        width: 85%;
+        width: 92%;
     }
+}
+
+.fundo-dourado {
+    background-color: #f3d043;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .txt-dourado {
+        width: 80%;
+        text-align: justify;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+
+.bt-contato {
+    padding: 12px 24px;                            
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.bt-contato:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+    color: rgb(95, 85, 85);
+    border: rgb(95, 85, 85) solid 2px;
 }
