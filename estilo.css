@@ -101,14 +101,14 @@ body {
 
 .img1 {
     width: 100%;
-    margin-top: 1800px;
+    margin-top: 2000px;
     /* Ajuste para evitar sobreposição com o navbar fixo */
     display: block;
 }
 
 @media (max-width: 768px) {
     .img1 {
-        margin-top: 1380px;
+        margin-top: 1880px;
     }
 }
 
@@ -338,6 +338,6 @@ body {
     }
 
     .logo img {
-        max-width: 120px;
+        max-width: 250px;
     }
 }
